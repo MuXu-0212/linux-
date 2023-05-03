@@ -1,15 +1,13 @@
-#include <stdio.h>
 #include "add.h"
 #include "sub.h"
-#include "mul.h"
-#include "div.h"
+
+#include <stdio.h>
+
+
 
 int main(int argc, char const *argv[])
 {
-	int a=5, b=4;
-	add( a, b);
-	sub( a, b);
-	mul( a, b);
-	div( a, b);
+	printf("%d\n",Add(1,3));
+	printf("%d\n",Sub(10,3));
 	return 0;
 }
